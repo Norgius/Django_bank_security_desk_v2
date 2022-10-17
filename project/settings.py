@@ -18,9 +18,9 @@ DATABASES = {
 
 INSTALLED_APPS = ['datacenter']
 
-SECRET_KEY = env.str('APP_SECRET_KEY')
+SECRET_KEY = 'REPLACE_ME'
 
-DEBUG = env.bool('APP_DEBUG')
+DEBUG = False
 
 ROOT_URLCONF = 'project.urls'
 
